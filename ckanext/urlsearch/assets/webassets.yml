@@ -1,0 +1,14 @@
+# urlsearch-js:
+#   filter: rjsmin
+#   output: ckanext-urlsearch/%(version)s-urlsearch.js
+#   contents:
+#     - js/urlsearch.js
+#   extra:
+#     preload:
+#       - base/main
+
+# urlsearch-css:
+#   filter: cssrewrite
+#   output: ckanext-urlsearch/%(version)s-urlsearch.css
+#   contents:
+#     - css/urlsearch.css
